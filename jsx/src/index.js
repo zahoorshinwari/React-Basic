@@ -13,7 +13,7 @@ const root = reactDom.createRoot(element);
 
 // 4) create a component
 function App() {
-    return <h1>Hi there!</h1>
+    return <h1>Hi there! this is our first react project.</h1>
 }
 
 // 5) show the component on screen
