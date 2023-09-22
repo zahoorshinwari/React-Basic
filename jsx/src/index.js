@@ -5,7 +5,13 @@ import React from 'react';
 import reactDom from 'react-dom/client'
 
 // import the App file here
-import App from './App'
+// import App from './App'
+
+// importing both default and named module
+// named export can't be renamed
+import App , {message} from './App'
+
+
 
 
 // 2) get a reference to the div with ID root

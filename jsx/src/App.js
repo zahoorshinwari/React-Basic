@@ -117,6 +117,8 @@ function App() {
             <p>hello this is paragraph no 1 that we are provided it for the practice</p>
             <h2>The below  can show the all information about upto now course</h2>
             <a href="https://jsx-notes.vercel.app/">Information</a>
+            <h1>{message}</h1>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSU77-yMQJbJ4dp3zwBxMgCl6II2F0Hf74ZwyaWk0GlLw&s"/>
         </div>
     )
 
@@ -130,4 +132,7 @@ function App() {
 export default App;
 
 
+// it has named export
+const message = "hello world..."
+export {message}
 
